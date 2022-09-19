@@ -1,0 +1,19 @@
+#loginForm {
+  padding: 1rem;
+  .inputStyles {
+    border-radius: 7px;
+    margin: 10px 0px;
+    padding: 5px 10px;
+  }
+  .ant-form-item-label {
+    width: 100%;
+    text-align: left;
+  }
+  .textLabels {
+    margin-bottom: 1.4rem;
+  }
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+  }
+}

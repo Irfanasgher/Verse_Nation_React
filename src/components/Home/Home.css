@@ -1,0 +1,362 @@
+main {
+  background-color: #e9eeff;
+  width: 100%;
+}
+
+.NavbarItems {
+  background-color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.nav-link a {
+  margin-left: 10px;
+}
+
+.poeple {
+  width: 291px;
+  height: 267px;
+  background-color: white;
+  margin-left: 25px;
+  border-radius: 7px;
+  border: solid gainsboro 2px;
+}
+
+.question-mark {
+  margin-top: 3px;
+  width: 16px;
+  height: 16px;
+}
+
+input {
+  width: 270px;
+  /* height: 36px; */
+  border-radius: 8px;
+  border: solid #d9d9d9 1px;
+  margin-left: 8px;
+  margin-top: 15px;
+}
+
+.artists {
+  width: 291px;
+  height: 1346px;
+  background-color: white;
+  margin-left: 25px;
+  border-radius: 7px;
+  border: solid gainsboro 2px;
+}
+
+.artist {
+  width: 266px;
+  height: 83px;
+  border-radius: 8px;
+  border: solid #d9d9d9 1px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.artist p h2 {
+  font-size: 14px;
+  color: #262626;
+}
+
+.ignore-btn {
+  background-color: white;
+  border: solid #ff7b77 1px;
+  color: #ff7b77;
+  border-radius: 4px;
+  font-size: 12px;
+  width: 71px;
+  height: 23px;
+  margin-left: 12px;
+  margin-top: 13px;
+}
+
+.follow-btn {
+  background-color: #4566e0;
+  border: solid #4566e0 1px;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  width: 71px;
+  height: 23px;
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.post {
+  width: 624px;
+  height: 480px;
+  background-color: white;
+  border-radius: 7px;
+  border: solid gainsboro 2px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.post {
+  margin-top: 43px;
+  margin-left: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid #e5e5e5 1px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.more {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.post p h2 {
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: 14px;
+  color: #262626;
+}
+
+.paragraph {
+  margin-top: 8px;
+  font-size: 12px;
+  margin-left: 25px;
+  color: #7a7979;
+}
+
+.reactions-controls {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.reactions {
+  border-radius: 18px;
+  border: solid #d9d9d9 1px;
+  width: 225px;
+  height: 39px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.controls {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.repost {
+  width: 79px;
+  height: 39px;
+  border-radius: 4px;
+  background-color: #ffa50a;
+  font-size: 14px;
+  color: white;
+  border: solid #ffa50a 1px;
+  margin-right: 20px;
+}
+
+.doing-info {
+  display: contents;
+  position: absolute;
+  left: 0;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+
+.library {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-right: 25px;
+}
+
+.follow {
+  width: 79px;
+  height: 39px;
+  border-radius: 4px;
+  background-color: #4566e0;
+  font-size: 14px;
+  color: white;
+  border: solid #4566e0 1px;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.music-post {
+  width: 624px;
+  height: 355px;
+  background-color: white;
+  border-radius: 7px;
+  border: solid gainsboro 2px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.music-post p h2 {
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: 14px;
+  color: #262626;
+}
+
+.song-details {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.play-btn {
+  display: contents;
+  position: absolute;
+  left: 0;
+}
+
+.date-info {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.song-details h1 {
+  font-size: 14px;
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-poster {
+  width: 577px;
+  height: 143px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 19px;
+  border: solid #e5e5e5 1px;
+  border-radius: 12px;
+  margin-left: 25px;
+}
+
+.add-library-btn {
+  width: 114px;
+  height: 31px;
+  border-radius: 4px;
+  background-color: white;
+  color: #b1b1b1;
+  border: solid #b1b1b1 1px;
+}
+
+.yt-url {
+  width: 576px;
+  margin-left: 24px;
+  font-size: 14px;
+  color: #7a7979;
+  display: flex;
+  flex-direction: row;
+  border: solid #7a7979 1px;
+  border-top: none;
+}
+
+.followers-post {
+  display: flex;
+  flex-direction: row;
+  width: 624px;
+  height: 269px;
+  border-radius: 7px;
+  background-color: white;
+  border: solid #e5e5e5 1px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.follow-slider {
+  border: solid #e5e5e5 1px;
+  top: 50%;
+  width: 174px;
+  height: 220px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 18px;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.lower-part {
+  margin: 0 auto;
+}
+
+.follow-slider button {
+  margin-top: 20px;
+  width: 71px;
+  height: 25px;
+  border-radius: 4px;
+  background-color: #4566e0;
+  color: white;
+  border: solid #4566e0 1px;
+}
+
+.followers-post a img {
+  margin-top: 134px;
+}
+
+.ads-col {
+  width: 291px !important;
+  height: 1683px;
+  border-radius: 7px;
+  border: solid #e5e5e5 1px;
+  background-color: #ffffff;
+  margin-top: 43px;
+}
+
+.col-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid #e5e5e5 1px;
+}
+
+.one-ad {
+  margin: 0 auto;
+  margin-top: 20px !important;
+  width: 249px;
+  height: 227px;
+  border: solid #e6e6e6 1px;
+  text-align: center;
+}
+
+.ads-col h2 {
+  font-size: 16px;
+  color: #262626;
+}
+
+.price {
+  font-size: 15px !important;
+  color: #ffa50a !important;
+}

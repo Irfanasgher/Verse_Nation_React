@@ -1,0 +1,28 @@
+#artistCardContainer {
+	width: 260px;
+	height: 95px;
+	margin-bottom: 20px;
+
+	.image {
+		height: 95px;
+		width: 84px;
+		border-radius: 8px;
+	}
+
+	h4 {
+		color: #262626;
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+
+	h5 {
+		color: #4566e0;
+		font-size: 13px;
+	}
+
+	p {
+		color: #7a7979;
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,58 @@
+export let AlbumData = [
+  {
+    id: 1,
+    image: 'photos/Bitmap.png',
+    name: 'Havana',
+    sub_name: 'Sara Evans',
+    detail: 'Lorem ipsum dolor sit amet, consectetur da dipiscing elit, sed do eiusmod tempor sass',
+  },
+  {
+    id: 2,
+    image: 'photos/Bitmap2.png',
+    name: 'Yellow',
+    sub_name: 'Beatrice Porter',
+    detail: 'Lorem ipsum dolor sit amet, consectetur da dipiscing elit, sed do eiusmod tempor sass',
+  },
+  {
+    id: 3,
+    image: 'photos/Mask1.png',
+    name: 'Havana',
+    sub_name: 'Terry Cunningham',
+    detail: 'Lorem ipsum dolor sit amet, consectetur da dipiscing elit, sed do eiusmod tempor sass',
+  },
+  {
+    id: 4,
+    image: 'photos/Mask.png',
+    name: 'Havana',
+    sub_name: 'Sara Evans',
+    detail: 'Lorem ipsum dolor sit amet, consectetur da dipiscing elit, sed do eiusmod tempor sass',
+  },
+  {
+    id: 5,
+    image: 'photos/Bitmap3.png',
+    name: 'Havana',
+    sub_name: 'Sara Evans',
+    detail: 'Lorem ipsum dolor sit amet, consectetur da dipiscing elit, sed do eiusmod tempor sass',
+  },
+  {
+    id: 6,
+    image: 'photos/Mask2.png',
+    name: 'Yellow',
+    sub_name: 'Beatrice Porter',
+    detail: 'Lorem ipsum dolor sit amet, consectetur da dipiscing elit, sed do eiusmod tempor sass',
+  },
+  {
+    id: 7,
+    image: 'photos/Mask3.png',
+    name: 'Havana',
+    sub_name: 'Sara Evans',
+    detail: 'Lorem ipsum dolor sit amet, consectetur da dipiscing elit, sed do eiusmod tempor sass',
+  },
+  {
+    id: 8,
+    image: 'photos/BlindEP_V3.png',
+    name: 'Havana',
+    sub_name: 'Sara Evans',
+    detail: 'Lorem ipsum dolor sit amet, consectetur da dipiscing elit, sed do eiusmod tempor sass',
+  },
+];

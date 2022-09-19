@@ -1,0 +1,131 @@
+/* @import "~antd/dist/antd.css"; */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #f0f0f0;
+}
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(51, 51, 51);
+  border-bottom: 1px solid #3f3f3f;
+}
+.header ul {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 500;
+}
+
+.horizontMenu > .ant-menu-item:hover,
+.horizontMenu > .ant-menu-submenu:hover,
+.horizontMenu > .ant-menu-item-active,
+.horizontMenu > .ant-menu-submenu-active,
+.horizontMenu > .ant-menu-item-open,
+.horizontMenu > .ant-menu-submenu-open,
+.horizontMenu > .ant-menu-item-selected,
+.horizontMenu > .ant-menu-submenu-selected {
+  color: #f7931e;
+}
+
+.menuBar {
+  padding: 0 20px;
+  border-bottom: solid 1px #e8e8e8;
+  overflow: auto;
+  box-shadow: 0 0 30px #f3f1f1;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 150px;
+  float: left;
+}
+.logo a {
+  display: inline-block;
+  font-size: 20px;
+  padding: 19px 20px;
+  text-transform: capitalize;
+}
+.menuCon {
+  width: calc(100% - 150px);
+  float: left;
+  height: 100%;
+}
+.menuCon .ant-menu-item {
+  padding: 0px 5px;
+}
+.menuCon .ant-menu-submenu-title {
+  padding: 10px 20px;
+}
+.menuCon .ant-menu-item a,
+.menuCon .ant-menu-submenu-title a {
+  padding: 10px 15px;
+}
+.menuCon .ant-menu-horizontal {
+  border-bottom: 1px solid #f0f0f0;
+}
+.menuCon .leftMenu {
+  float: left;
+}
+.menuCon .rightMenu {
+  float: right;
+  font-size: 1.5rem;
+  line-height: 69px;
+}
+.rightMenu .ant-menu-horizontal {
+  height: 100%;
+}
+.barsMenu {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none;
+  background-color: #42210b;
+  color: white;
+  margin-top: 0;
+  padding: 5px;
+  border: none;
+}
+.barsMenu:hover {
+  background-color: #7e3708;
+}
+
+.ant-drawer-body {
+  padding: 0;
+}
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-submenu {
+  display: inline-block;
+  width: 100%;
+}
+.ant-drawer-body .ant-menu-horizontal {
+  border-bottom: none;
+}
+.ant-drawer-body .ant-menu-horizontal > .ant-menu-item:hover {
+  border-bottom-color: transparent;
+}
+
+@media (max-width: 767px) {
+  .barsMenu {
+    display: inline-block;
+  }
+  .rightMenu {
+    display: none;
+  }
+  .horizontMenu {
+    display: none;
+  }
+  .logo a {
+    margin-left: -20px;
+  }
+  .menuCon .ant-menu-item,
+  .menuCon .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+  .logo a {
+    padding: 10px 20px;
+  }
+}

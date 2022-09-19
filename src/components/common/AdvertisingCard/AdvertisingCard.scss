@@ -1,0 +1,33 @@
+#advertisingCardContainer {
+	width: 220px;
+	height: 227px;
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin-bottom: 20px;
+
+	.image {
+		height: 158px;
+		width: 220px;
+		// object-fit: contain;
+	}
+
+	h4 {
+		color: #262626;
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: 15px;
+		margin-bottom: 0;
+	}
+
+	p {
+		color: #ffa50a;
+		font-size: 15px;
+		margin-top: 3px;
+		font-weight: bold;
+		padding: 0;
+	}
+}

@@ -1,0 +1,28 @@
+#albumCardContainer {
+	width: 171px;
+	// height: 260px;
+	margin-top: 20px;
+
+	.image {
+		height: 150px;
+		width: 100%;
+		border-radius: 4px;
+	}
+
+	h4 {
+		color: #262626;
+		font-size: 14px;
+		font-weight: bold;
+		margin-top: 10px;
+	}
+
+	h5 {
+		color: #7ac133;
+		font-size: 13px;
+	}
+
+	p {
+		color: #7a7979;
+		font-size: 12px;
+	}
+}
